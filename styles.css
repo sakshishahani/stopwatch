@@ -1,0 +1,34 @@
+body{
+    height:100vh;
+    #grad {
+        background-image: linear-gradient(black, gray);
+      }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width:60%;
+    height:250px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 3px;
+}
+#timer{
+    
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 10px;
+    color: #fff;
+    width: 50px;
+}
+#play{
+    background-color: green;
+}
+#pause{
+    background-color: orange;
+} #ffa500
+#reset{
+background-color: red;
+}
